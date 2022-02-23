@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <b>
+        <h1 style="text-align: center;">Excel To Json</h1>
+    </b>
+</head>
+
+<body>
+    <div id="dropbox" class="button" style="text-align: center;">
+        <hr />
+        <p>
+        <h1 style="color: rgba(0, 0, 0, 0.2);">文件拖入区域</h1>
+        <!-- <button type="button" onclick="onOpenFolder()">打开文件夹</button>
+        <button type="button" onclick="onOpenFile()">打开XLSX</button> -->
+        <button type="button" onclick="onOutput()">导出JSON</button>
+        <input type="checkbox" onclick="mangerFile()" checked="true">(合并JSON)
+        </p>
+        <p>
+        <form>
+            加密模式：
+            <input type="radio" name="encode" value="1" checked="true" onclick="clickRadio(value)">无
+            <input type="radio" name="encode" value="2" onclick="clickRadio(value)">md5
+            <input type="radio" name="encode" value="3" onclick="clickRadio(value)">base64
+            <input type="radio" name="encode" value="4" onclick="clickRadio(value)">msgpack
+        </form>
+        </p>
+    </div>
+    <hr />
+    <div id="success_console" style="width: 50%; float: left;  display: none;">
+        <h4>读取成功</h4>
+        <ul id="success_ul"
+            style="height: 360px; background-color: rgb(62, 238, 115,0.6); border: 1px solid black; overflow-y: auto;">
+        </ul>
+    </div>
+    <div id="fail_console" style="width: 50%; float: left; display: none;">
+        <h4>读取失败</h4>
+        <ul id="fail_ul"
+            style="height: 360px; background-color:rgba(255, 0, 21, 0.6); border: 1px solid black; overflow-y: auto;">
+        </ul>
+    </div>
+</body>
+
+<script src="./libs/xlsx/xlsx.min.js"></script>
+<script src="./libs/fileSaver/fileSaver.min.js"></script>
+<script src="./src/loadFile.js"></script>
+<script src="./src/analysisFile.js"></script>
+<script src="./src/outputFile.js"></script>
+
+</html>
