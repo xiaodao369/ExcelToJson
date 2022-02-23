@@ -3,7 +3,7 @@
 
 1.支持批量导出json
 
-2.多个xlsx合并为一个json
+2.多个xlsx合并为一个json导出
 
 ![image](./image/page.jpg)
    
