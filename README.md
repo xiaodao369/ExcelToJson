@@ -1,6 +1,8 @@
 # ExcelToJson
     
     主要用于XLSX、XLS转JSON工具
+    使用：
+        1.git clone 
 
 ## 1.0.0
     
