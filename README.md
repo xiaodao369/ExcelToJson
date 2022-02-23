@@ -1,6 +1,8 @@
 # ExcelToJson
 主要用于XLSX、XLS转JSON工具。
+
 1.支持批量导出json
+
 2.多个xlsx合并为一个json
 
 ![image](./image/page.jpg)
