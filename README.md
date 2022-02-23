@@ -2,7 +2,8 @@
     
     主要用于XLSX、XLS转JSON工具
     使用：
-        1.git clone 
+        1.下载代码包
+        2.打开index.html
 
 ## 1.0.0
     
