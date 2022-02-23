@@ -7,7 +7,9 @@
     
 ## 使用：
    1.下载代码包
+   
       git clone https://github.com/xiaodao369/ExcelToJson.git
+   
    2.打开index.html
    
    3.拖拽xlsx到页面
